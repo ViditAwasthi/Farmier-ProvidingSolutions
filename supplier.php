@@ -89,7 +89,7 @@
 
   <?php
 
-$conn = mysqli_connect("localhost", "id13519050_viditawasthi2", "Greenday@1965", "id13519050_mydb");
+$conn = mysqli_connect("localhost", "**DB**", "**PW**", "**DB**");
 
 // Check connection
 
