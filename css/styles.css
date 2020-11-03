@@ -1,0 +1,670 @@
+
+/* Home Page CSS */
+
+/* Navbar */
+
+.custom-padding {
+  height: 70px;
+  background: #142850;
+  padding-top: 0px;
+}
+
+
+.menu-area li a {
+  text-decoration: none;
+}
+
+.menu-area li {
+  list-style-type: none;
+}
+
+.custom-padding{
+  padding-top: 0px;
+}
+
+nav {
+  position: relative;
+  width: cal(100% );
+  margin: 0 auto;
+  padding: 10px 0;
+  background: #142850;
+  z-index: 1;
+  text-align: right;
+  padding-right: 2%;
+
+
+}
+
+.logo {
+  width: 15%;
+  float: left;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 2%;
+}
+
+.menu-area li {
+  display: inline-block;
+}
+
+.menu-area a {
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 25px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+}
+.menu-area a:hover {
+  background: #c2f0fc;
+  color: black;
+
+}
+
+.menu-area a:hover:after {
+  transform: translateY(-50%) rotate(-30deg);
+}
+
+.textstyle{
+    font-family: 'Quattrocento', serif;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+.logo{
+  height: 50px;
+  width: 90px;
+  position: relative;
+
+left: 15px;
+}
+
+
+
+
+
+
+body {
+  margin: 0px;
+  background-color: white;
+}
+
+.graphics {
+  background-color: #c2f0fc;
+  height: 516px;
+}
+
+.topheading {
+  width: 400px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: 'Pacifico', cursive;
+  position: relative;
+  font-size: 70px;
+  left: 510px;
+  bottom: 630px;
+  color: #3a3535;
+}
+
+.toppara {
+  width: 512px;
+  font-family: 'Comic Neue', cursive;
+  font-size: 25px;
+  position: relative;
+  left: 400px;
+  bottom: 630px;
+  color: #1b262c;
+}
+
+.field1 {
+  height: 200px;
+  width: 595px;
+  position: relative;
+  top: 339px;
+  left: 220px;
+  z-index: 1;
+}
+
+.field2 {
+  height: 200px;
+  width: 668px;
+  position: relative;
+  bottom: 65px;
+}
+
+.mountain {
+  height: 120px;
+  width: 190px;
+  position: relative;
+  top: 140px;
+  z-index: 1;
+  right: 40px;
+}
+
+.hut {
+  height: 200px;
+  width: 250px;
+  position: relative;
+  right: 80px;
+  top: 190px;
+  z-index: 1;
+}
+
+.tree {
+  height: 400px;
+  width: 300px;
+  bottom: 75px;
+  left: 290px;
+  position: relative;
+  z-index: 1;
+}
+
+.grasstree {
+  height: 70px;
+  width: 120px;
+  position: relative;
+  z-index: 1;
+  bottom: 81px;
+  left: 100px;
+}
+
+.grassmid1 {
+  height: 10px;
+  width: 40px;
+  position: relative;
+  z-index: 1;
+  right: 700px;
+  bottom: 255px;
+}
+
+.grassmid3 {
+  height: 25px;
+  width: 60px;
+  position: relative;
+  z-index: 1;
+  right: 1170px;
+  bottom: 195px;
+}
+
+.grassmid2 {
+  height: 20px;
+  width: 50px;
+  position: relative;
+  z-index: 1;
+  bottom: 205px;
+  left: 20px;
+}
+
+@keyframes tractor {
+  0% {
+    left: 370px;
+    top: 350px;
+  }
+
+  100% {
+    left: 850px;
+    top: 350px;
+  }
+}
+
+.movetract {
+  z-index: 1;
+  animation-name: tractor;
+  animation-duration: 8s;
+  position: absolute;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.tractor {
+  height: 125px;
+  width: 125px;
+}
+
+.cloud1 {
+  height: 20px;
+  width: 80px;
+  position: relative;
+  bottom: 405px;
+}
+
+.cloud2 {
+  height: 40px;
+  width: 150px;
+  position: relative;
+  left: 900px;
+  bottom: 535px;
+}
+
+.cloud3 {
+  height: 30px;
+  width: 120px;
+  position: relative;
+  bottom: 495px;
+}
+
+
+
+.about {
+  text-align: center;
+  background: white;
+}
+
+.abouthead {
+  font-family: 'Merriweather', serif;
+  padding-top: 70px;
+  font-size: 28px;
+  color: #3a3535;
+}
+
+.farmerimg {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+}
+
+.Supplierimg {
+  height: 100px;
+  width: 120px;
+  float: right;
+  margin-left: 20px;
+}
+
+.farmerdiv {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.supplierdiv {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  margin-top: 70px;
+}
+
+.farandsupheading {
+  font-size: 20px;
+}
+
+.border {
+  text-align: center;
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 6px;
+  width: 8%;
+  position: relative;
+  bottom: 30px;
+}
+
+.loginas {}
+
+.farmerlog {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  border-color: grey;
+  border-width: 5px;
+  position: relative;
+  top: 60px;
+  right: 110px;
+}
+
+.supplierlog {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  border-color: grey;
+  position: relative;
+  top: 60px;
+  left: 110px;
+}
+
+.loginhead {
+  font-family: 'Merriweather', serif;
+  padding-top: 10px;
+  font-size: 28px;
+  color: #3a3535;
+}
+
+.asfarmer {
+  position: relative;
+  top: 49px;
+  right: 170px;
+}
+
+.assupplier {
+  position: relative;
+  top: 10px;
+  left: 350px;
+  width: 900px;
+}
+
+.contact-me {
+  text-align: center;
+  background: white;
+  position: relative;
+  bottom: 44px;
+}
+
+.touch {
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  color: #3a3535;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.copyright {
+  color: #EAF6F6;
+  margin-bottom: 0px;
+  position: relative;
+  top: 90px;
+  margin-top: 0px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 20px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+}
+
+.help {
+  margin-bottom: 10px;
+}
+
+.feel {
+  margin-bottom: 30px;
+}
+
+.mailus {}
+
+.linkedin {
+  position: relative;
+  top: 40px;
+  right: 90px;
+}
+
+.youtube {
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+
+.instagram {
+  position: relative;
+  top: 40px;
+  left: 70px;
+}
+
+.github {
+  position: relative;
+  top: 40px;
+  right: 35px;
+}
+
+h3 {
+  font-family: 'Quattrocento', serif;
+  color: #11999E;
+}
+
+
+/* Farmer's Page CSS */
+
+
+.welcome{
+
+  text-align: center;
+  height: 200px;
+  background: #a0ffe6;
+}
+
+.farmerpic{
+
+  height: 120px;
+  width: 120px;
+position: relative;
+right: 260px;
+top: 30px;
+
+
+}
+.firstheading{
+
+  position: relative;
+  left: 430px;
+  bottom: 140px;
+  width: 500px;
+}
+.croppics{
+
+  height: 60px;
+  width: 60px;
+
+}
+
+.corn{
+  position: relative;
+  bottom: 150px;
+  right: 470px;
+
+}
+.wheat{
+
+  position: relative;
+bottom: 150px;
+left: 300px;
+}
+
+.rice2{
+position: relative;
+right: 460px;
+bottom: 250px;
+}
+
+.riceround{
+position: relative;
+left: 550px;
+bottom: 250px;
+
+}
+.impinfo{
+
+  text-align: center;
+  position: relative;
+  bottom: 45px;
+
+}
+.impinfoheading{
+  font-size: 31px;
+font-family: 'Boogaloo', cursive;
+color: #ff2e63;
+position: relative;
+  padding-top: 60px;
+  padding-bottom:  10px;
+  margin-bottom: 0;
+
+}
+.infoborder{
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 6px;
+  width: 8%;
+  position: relative;
+  top: 60px;
+
+}
+.giphy{
+width: 40px;
+height: 40px;
+position: relative;
+left: 240px;
+bottom: 46px;
+
+}
+
+.motionpic{
+
+
+}
+.pmfby{
+
+  height: 200px;
+  width: 450px;
+margin-right: 25px;
+
+}
+.pmkvy{
+
+  height: 200px;
+  width: 300px;
+  margin-right: 25px;
+}
+.pmksy{
+  height: 200px;
+  width: 370px;
+
+}
+.cropsolution{
+text-align: center;
+
+}
+.solution{
+
+color: grey;
+font-size: 30px;
+}
+
+.solutionpara{
+    font-family: 'Quattrocento', serif;
+}
+
+.form{
+
+  padding-top: 40px;
+  width: 500px;
+  position: relative;
+  left: 380px;
+  border-style: double;
+}
+.cropselling{
+
+  text-align: center;
+}
+
+.secondmotion{
+  height: 200px;
+  width: 450px;
+  margin-right: 25px;
+
+}
+.firstmotion{
+  height: 200px;
+  width: 450px;
+margin-right: 25px;
+
+}
+.thirdmotion{
+  height: 200px;
+  width: 370px;
+
+}
+
+
+/* Suppliers Page Css */
+.tables{
+  text-align: center;
+}
+
+
+/* About Page */
+.aboutpic{
+
+    height: 24px;
+    width: 24px;
+  position: relative;
+  right: 85px;
+  top: 46px;
+
+}
+.abouthead2{
+  position: relative;
+  left: 390px;
+  bottom: 80px;
+  width: 500px;
+}
+.welcome2{
+
+  text-align: center;
+  height: 120px;
+  background: #a0ffe6;
+}
+.aboutmatter
+{
+  text-align: center;
+}
+.aboutparadiv{
+width: 500px;
+
+
+}
+.aboutpara{
+  width: 755px;
+  position: relative;
+  left: 265px;
+  letter-spacing:1px;
+  font-family: 'PT Sans', sans-serif;
+}
+.aboutfounder{
+
+  position: relative;
+  left: 380px;
+  font-family: 'Quattrocento', serif;
+}
+.aboutpic1{
+
+    height: 32px;
+    width: 32px;
+  position: relative;
+  right: 90px;
+  top: 46px;
+
+}
+.abouthead3{
+  position: relative;
+  left: 395px;
+  bottom: 80px;
+  width: 500px;
+}
+.aboutpic2{
+
+    height: 32px;
+    width: 32px;
+  position: relative;
+  right: 70px;
+  top: 46px;
+
+}
+.lists{
+text-align: center;
+
+}
