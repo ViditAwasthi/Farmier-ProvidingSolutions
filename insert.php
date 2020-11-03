@@ -14,9 +14,9 @@ if (!empty($crop_name) || !empty($variety_name) || !empty($qty_wt) || !empty($se
 {
 
  $host = "localhost";
-    $dbUsername = "id13519050_viditawasthi2";
-    $dbPassword = "Greenday@1965";
-    $dbname = "id13519050_mydb";
+    $dbUsername = "***USERNAME***";
+        $dbPassword = "**PW**";
+        $dbname = "**DBNAME**";
 
     //Creating connection
 
