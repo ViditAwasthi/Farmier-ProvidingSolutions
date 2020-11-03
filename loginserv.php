@@ -10,7 +10,7 @@ else
 $user=$_POST['user'];
 $pass=$_POST['pass'];
 //Establishing Connection with server by passing server_name, user_id and pass as a patameter
-$conn = mysqli_connect("localhost", "id13519050_viditawasthi2", "Greenday@1965", "id13519050_mydb");
+$conn = mysqli_connect("localhost", "**DB**", "**PW**", "**DB**");
 
 //sql query to fetch information of registerd user and finds user match.
 $query = mysqli_query($conn, "SELECT * FROM userpass WHERE pass='$pass' AND user='$user'");
